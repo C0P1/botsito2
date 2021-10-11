@@ -14,7 +14,7 @@ const BOT_CHANNEL = process.env.BOT_CHANNEL;
 function gotMessage(message) {
     console.log("New Message", message);
     if ((message.content.match(/([a-z]a/)) && message.channel.id == BOT_CHANNEL)
-        message.reply("que rico la come 7u7");
+        message.reply("LA MAMA DE LA MAMA DE LA MAMA DE LA MAMA DE LA MAMA DE LA MAMA");
 }
 
 // When the client is ready, run this code (only once)
